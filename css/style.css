@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+header {
+    display: block;
+    height: 100px;
+    background-color: wheat;
+    border-bottom: 10px solid gray;
+}
+
+.main-header {
+    background-color: wheat;
+	height: 100px;		
+    font-family: Georgia, Times, Times New Roman, serif;
+	overflow: auto;
+	display: block;
+	width: 960px;
+    margin: 0 auto;
+}
+.header-name {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: teal;
+}
+.button-box {
+    display: block;
+    /* background-color: blueviolet; */
+    height: 100%;
+    float: right;
+    float: bottom;
+    width: 400px;
+}
+.nav-bar {
+    width: 100%;
+    vertical-align: middle;
+}
+.nav-bar::after {
+    clear:both;
+}
+.links {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    float: right;
+	padding-right: 25px;
+    color: #777777;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 20px;
+}
+info-container {
+    background-image: url("images/cork-wallet.png");
+}
+.centered-container {
+    display: inline-block;
+    overflow: auto;
+    width: 960px;
+}
+.bio-image {
+    width: 200px;
+}
+.personal-info {
+    width: 700px;
+    padding: 80px;
+    font-size: 20px;
+}
+footer {
+    background-color: wheat;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    border-top: 10px solid gray; 
+    text-align: center;
+    height: 40px;
+}
+
+.portfolio-box {
+    margin: 15px;
+    border-top: 10px solid teal;
+    width: 300px;
+    height: 370px;
+}
+.portfolio-picture {
+    width: 300px;
+}
+.portfolio-name {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
