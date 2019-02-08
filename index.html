@@ -1,44 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Harrison's Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- SPECIAL FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Harrison's Bio Webpage</title>
 </head>
 
 <body>
-    <header>
-        <box class= "head-container">
-            <div class= "main-header">
-                <!-- Name -->
-                <box class="header-name"><p class="name">Harrison Gregory Moore</p></box>
-                <!-- Nav bar -->
-                <box class="button-box">
-                    <box class="nav-bar">
-                        <a id="contact" class="links" href="contact.html">Contact</a>
-                        <a id="portfolio" class="links" href="portfolio.html">Portfolio</a> 
-                        <a id="about" class="links" href="index.html">About</a>
-                    </box>
-                </box>
-            </div>
-        </box>
-    </header>
+    <div class="row-md-12 text-center" id="title">
 
-    <box class="info-container">
-        <img class="bio-image" src="html-images/Bio_Image.jpg" width="200">
-        <p class="personal-info">    
-        Things about me:
-        <br>
-        I am a really big fan of both history and math. Math helps me create things, like graphs, blueprints, floor plans and shapes that fit perfectly with one and another.
-        History is also really neat because of all the interesting things that people have done with one and another in terms of leadership, advances in science, technology and philosiphy, and wars that people fought.
-        <br>
-        On my down time I like to play games, watch movies, snowboard and discuss/debate (in a civil manner) with people. My favorite movie is Fight Club and my favorite game series is Fallout.
-        </p>
-    </box>
-    <footer>
-        Copyright 2018
-    </footer>
+        <h1>Harrison Moore</h3>
+        <p class="tagline">"Patroling the Mojave almost makes you wish for a nuclear winter." </p>
+        
+        <nav class="row justify-content-center" id="header">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/harrison-moore-142119150/">Linkedin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/HarrisonGMoore">Github</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Coding_Bootcamp/oct-class-repo/HarrisonGMoore.github.io/Resume.pdf">Resume</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="row-md-12 margin thumbnail" id="bio-pic">
+            <img src="html-images/Bio_Image.jpg" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="row-md-12 image_bar">
+
+        <div class="text-block opaque">
+
+            <p class="card-text poppins">About Me: </p>
+            <p class="inner-card-text poppins">
+                I am a really big fan of both history and math. Math helps me create things, like graphs, blueprints, floor plans and shapes that fit perfectly with one and another.
+                History is also really neat because of all the interesting things that people have done with one and another in terms of leadership, advances in science, technology and philosiphy, and wars that people fought.
+                <br>
+                On my down time I like to play games, watch movies, snowboard and discuss/debate (in a civil manner) with people. My favorite movie is Fight Club and my favorite game series is Fallout.
+                </p>
+
+            <form>
+                <div class="row">
+                    <div class="col" id ="contact-info">
+                        <div class="row-md-12">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="row-md-12 email-input">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="row-md-12">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="row-md-12 input-lg">
+                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="row-md-8">
+                            <input class="button" id="submit-button" type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row-md-12 margin" id="skills">
+        <h1 class="poppins-w">Skills</h1>
+            <div class="col  justify-content-center">
+                <h4>HTML, CSS & CSS Frameworks, Javascript, JQuery, Node.js, Firebase Database, Github, Python </h4>
+            </div>
+        <h1 class="poppins-w">Portfolio</h1>
+        <div id="projects">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="html-images/recipe-builder-logo.png" alt="Recipe Photo">
+                <div class="card-body">
+                    <p class="card-text">Recipe Builder</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/HarrisonGMoore/TheZFightersProject" class="card-link">Github</a>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="html-images/Liri_Sample.PNG" alt="Liri Photo">
+                <div class="card-body">
+                    <p class="card-text">Liri Node App</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/HarrisonGMoore/liri-node-app" class="card-link">Github</a>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="html-images/Trivia.PNG" alt="Trivia Photo">
+                <div class="card-body">
+                    <p class="card-text">Trivia Game</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/HarrisonGMoore/TriviaGame" class="card-link">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="text-center margin" id="footer">Copyright 2019</footer>
 </body>
 </html>
