@@ -229,7 +229,7 @@
 .headlinkblocktwitter {
   width: 80px;
   height: 80px;
-  margin: 0px 10px 20px;
+  margin: 0px auto 20px 10px;
   padding-bottom: 0px;
   float: left;
   clear: none;
@@ -338,7 +338,7 @@
     margin-left: 20px;
   }
   .headlinkblockgithub {
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .headlinkblockgmail {
     margin-left: 20px;
