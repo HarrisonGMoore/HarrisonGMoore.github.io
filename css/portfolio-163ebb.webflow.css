@@ -3,7 +3,7 @@
   height: 100%;
   border-style: solid none none;
   border-width: 16px 8px 10px;
-  border-color: #a2aa04 hsla(62.9126213592233, 95.63%, 34.08%, 1.00) #000 #a2aa04;
+  border-color: #a2aa04 #a2aa04 #000 #a2aa04;
   background-color: #333;
   opacity: 0.8;
   color: #cccf1f;
@@ -28,7 +28,7 @@
 }
 
 .nav {
-  background-color: #363636;
+  background-color: #353434;
   opacity: 0.83;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
@@ -36,7 +36,7 @@
 }
 
 .navlink {
-  color: #ced11f;
+  color: #cccf1f;
 }
 
 .footer {
@@ -50,7 +50,7 @@
   height: 50px;
   margin-left: 0px;
   border: 8px solid #a2aa04;
-  background-color: hsla(62.89156626506022, 0.00%, 12.67%, 1.00);
+  background-color: #202020;
   opacity: 1;
   font-size: 20px;
   line-height: 30px;
@@ -65,7 +65,7 @@
   clear: left;
   border-style: none solid;
   border-width: 8px;
-  border-color: hsla(62.89156626506022, 95.40%, 34.12%, 1.00);
+  border-color: #a2aa04;
   background-color: #000;
   opacity: 1;
   text-align: center;
@@ -91,9 +91,7 @@
   margin-left: 0px;
   float: left;
   clear: left;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #91e25a;
+  border: 10px solid #a2aa04;
 }
 
 .headname {
@@ -113,11 +111,11 @@
   min-width: auto;
   margin-top: 0px;
   padding-right: 0px;
-  float: right;
+  float: left;
   clear: none;
   border-style: solid;
   border-width: 4px;
-  border-color: hsla(62.89156626506022, 95.40%, 34.12%, 1.00);
+  border-color: #a2aa04;
 }
 
 .headpi {
@@ -154,7 +152,7 @@
   clear: left;
   border-style: dotted solid;
   border-width: 8px;
-  border-color: hsla(62.89156626506022, 95.40%, 34.12%, 1.00);
+  border-color: #a2aa04;
   background-color: #000;
   opacity: 1;
   text-align: center;
@@ -178,7 +176,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #fff;
-  color: #3e5cac;
+  color: #3d5bac;
   text-align: center;
 }
 
@@ -248,7 +246,7 @@
   clear: left;
   border-style: none solid;
   border-width: 8px;
-  border-color: hsla(62.89156626506022, 95.40%, 34.12%, 1.00);
+  border-color: #a2aa04;
   background-color: #000;
   opacity: 1;
   text-align: center;
@@ -331,6 +329,7 @@
   }
   .headlinks {
     width: 100%;
+    margin-top: 10px;
     margin-right: 0px;
     margin-left: 0px;
   }
